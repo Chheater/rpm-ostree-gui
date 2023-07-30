@@ -161,7 +161,7 @@ class PopupReboot(Gtk.Dialog):
         self.set_transient_for(parent)
         label=Gtk.Label(label="Rollback completed successfully. Please reboot your system.")
         self.set_child(label)
-        self.add_button("OK", Gtk.ResponseType.OK)
+        # self.add_button("OK", Gtk.ResponseType.OK)
         self.present()
 
 class PopupMessage(Gtk.Dialog):
